@@ -39,12 +39,12 @@ hr {
 }
 .intro__inner {
     width: 100%;
-    max-width: 880px;
+    max-width: 700px;
     margin: 0 auto;
     text-align: center;
 }
 .intro__title {
-    font-size: 150px;
+    font-size: 100px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
@@ -60,7 +60,7 @@ hr {
 }
 .intro__suptitle {
     font-family: 'Kaushan Script', cursive;
-    font-size: 72px;
+    font-size: 48px;
     color: #fff;
     margin-bottom: 20px;
     font-weight: 400;
@@ -182,6 +182,11 @@ hr {
 /* Секция */
 .section {
     padding: 80px 0;
+}
+.section--devices {
+    background: url('../images/devices-bg.jpg') center no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
 }
 .section__header {
     width: 100%;
@@ -309,4 +314,20 @@ hr {
 .services__text {
     font-size: 15px;
     color: #999;
+}
+/* Девайсы */
+.devices {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.devices__item {
+    display: block;
+}
+.devices__item--iphone {
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 1;
 }
